@@ -5,4 +5,4 @@
 
 Study - SSUDA ( Soongsil Univ. Data Accompany )  
 Club Activity  - CUCIS  
-Bootcamp - KB IT's Your Life  
+Bootcamp - KB IT's Your Life + Udemy Starters 4th Bootcamp   
