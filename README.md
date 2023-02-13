@@ -3,7 +3,8 @@
 ## '_'__PEBBLE_JJI LOG__'_'
 ****
 
-### Study - SSUDA ( SoongSil Univ. Data Accompany )  
+### Study
+- SSUDA ( SoongSil Univ. Data Accompany )  
 ### Club Activity
  - CUCIS
  - SSUGAR  
