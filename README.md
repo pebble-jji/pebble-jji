@@ -4,10 +4,10 @@
 ****
 
 ### Study
-- SSUDA ( SoongSil Univ. Data Accompany )  
+- SSUDA (SoongSil Univ. Data Accompany)  
 ### Club Activity
- - CUCIS
- - SSUGAR  
+ - CUCIS(Job Finding Club) 👑
+ - SSUGAR(IT Volunteering Project Group)  
 ### Bootcamp 
-- KB IT's Your Life 1st
-- Udemy x Starters 4th Bootcamp   
+- KB IT's Your Life 1st(Full Stack)  
+- Udemy x Starters 4th Bootcamp(Data Analysis)  
