@@ -3,6 +3,10 @@
 ## '_'__PEBBLE_JJI LOG__'_'
 ****
 
-Study - SSUDA ( Soongsil Univ. Data Accompany )  
-Club Activity  - CUCIS  
-Bootcamp - KB IT's Your Life 1st + Udemy Starters 4th Bootcamp   
+### Study - SSUDA ( SoongSil Univ. Data Accompany )  
+### Club Activity
+ - CUCIS
+ - SSUGAR  
+### Bootcamp 
+- KB IT's Your Life 1st
+- Udemy x Starters 4th Bootcamp   
