@@ -33,11 +33,11 @@ a <- c(1,2,3,4,5)
 max(a) # 최대
 min(a) # 최소
 sum(a) # 합
-mean(a) # 평균
 prod(a) # 전체 곱하기
 factorial(a) # 팩토리얼값 반환
-median(a) # 중위수
 abs(a) # 절댓값
+mean(a) # 평균
+median(a) # 중위수
 sd(a) # 표준편차
 var(a) # 분산
 
@@ -72,17 +72,15 @@ if(a == 1){
   print(paste('a는 ', a, '입니다.'))
 }
 
-ifelse(a == T, print(TRUE), print(FALSE))
+ifelse(a == T, print('TRUE'), print('FALSE'))
 
 switch(b <- 'jy', 'jy' = 'hello', 'dh' = 'no!' )
 
-a <- 2 : 10
+a <- 1 : 10
 
 ## which는 인덱스 뽑아줌
 a[which(a > 7)]
 
-# ===== 예제 ======
-score <- cbind.data.frame()
 
 # ===== 반복문 ======
 for(i in 1:10){
@@ -96,7 +94,6 @@ while(i <= 10){
   i = i + 1
 }
 
-rep('*',5)
 # ====== 함수 ======
 
 phi <- function(x){
@@ -126,7 +123,7 @@ pln = cbind.data.frame(
 write.csv(pln,'C:/code/data/pln.csv')
 
 df = read.csv('C:/code/data/pln.csv')
-df
+head(df)
 
 # ===== 데이터 확인하기 =====
 
@@ -152,7 +149,6 @@ df = read.csv('C:/code/data/scores.csv')
 
 select(df, kor, eng) # 특정 col 추출
 
-filter(df, kor > 90)
 
 filter(df, kor > 90) %>% select(name)
 
@@ -191,13 +187,12 @@ cnt_df
 # 아메리카 대륙 데이터 프레임 생성 및 길이 체크
 amr = filter(df, continent == 'Americas')
 
-dim(amr)
+dim(amr)[1]
 
 # 인구가 3천만 이상인 아메리카의 나라들의 country별 행 개수
 
 amr %>% filter(pop >= 30000000) %>% count(country, sort = T)
 
-amr
 # Brazil, Mexico, US의 연도별 인구수 그래프에 나타내기
 
 br = amr$country == 'Brazil'
@@ -215,3 +210,4 @@ plot(amr[us,]$year, amr[us,]$pop, col = 'navy', type = 'o', pch = 20, xlab = '�
      ylim = c(min(amr[br|mx|us,]$pop),max(amr[br|mx|us,]$pop)))
 
 legend('topleft',legend = c('Brazil', 'Mexico', 'United States'), cex = 0.5, fill = c('darkgreen', 'darkred','navy'))
+
